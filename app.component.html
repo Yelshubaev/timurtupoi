@@ -1,0 +1,68 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img  width="200" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+<!-- <h2>Here are some links to help you start: </h2>
+<div>
+
+  <p>{{ aList }}</p> 
+
+
+ <ul>
+    <ng-container *ngFor="let task3 of newList" >
+      <li *ngIf="task3 < 0">
+        {{ task3 < 0 ? task3 : '' }}
+      </li>
+    </ng-container>
+  </ul>
+
+  <ul>
+      <li *ngFor="let el of  newList; let i = index ">
+        {{ i+1 + '-' + square(el) }}
+      </li>
+    </ul>
+
+</div> 
+<br>
+<button type="button" (click)="task1()">buttom</button>
+<button type="button" (click)="task4()">Task4</button>
+
+<button type="button" (click)="refreshPosts()">GET</button> -->
+<!-- <div align=center> 
+<br>
+<h1>Router by User Id</h1>
+<nav>
+  <a routerLink="/post-client" routerLinkActive="active" (click)="refreshPostsId1()" >User 1</a>
+  <br>
+  <a routerLink="/post-client" routerLinkActive="active" (click)="refreshPostsId2()">User 2</a>
+  <br>
+  <a routerLink="/post-client" routerLinkActive="active"(click)="refreshPostsId3()">User 3</a>
+  <br>
+  <a routerLink="/post-client" routerLinkActive="active" (click)="refreshPostsId4()">User 4</a>
+  <br>
+  <ul>
+    <li *ngFor="let el of newUser1">
+      {{  el.userId +" "+ el.id +" "+ el.title }}
+    </li>
+  </ul>
+  <br>
+  <h1>Posts router</h1>
+  <a routerLink="/posts" routerLinkActive="active" (click)="refreshPosts()">Description</a>
+</nav>
+<router-outlet></router-outlet>
+<ul>
+  <li *ngFor="let el of newList">
+    {{  el.userId +" "+ el.id +" "+ el.title }}
+  </li>
+</ul>
+<br>
+</div> -->
+<!-- <app-footer></app-footer> -->
+<app-list></app-list>
+<br>
+<br>
+<app-detail></app-detail>
+
